@@ -1,0 +1,17 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: authentication-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${REGISTER_HOST:196.10.94.37}:${REGISTER_PORT:8848}
+        namespace: 0653a0bd-151b-43ec-adfd-307f539470ce
+      config:
+        server-addr: ${REGISTER_HOST:196.10.94.37}:${REGISTER_PORT:8848}
+        file-extension: yml
+        namespace: 0653a0bd-151b-43ec-adfd-307f539470ce
+    sentinel:
+      transport:
+        dashboard: ${SENTINEL_DASHBOARD_HOST:196.10.94.37}:${SENTINEL_DASHBOARD_PORT:8858}
