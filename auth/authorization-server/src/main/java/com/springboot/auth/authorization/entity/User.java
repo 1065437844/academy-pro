@@ -1,14 +1,19 @@
 package com.springboot.auth.authorization.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import com.springboot.cloud.common.web.entity.po.BasePo;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import javax.annotation.Resource;
 
 @Data
 @EqualsAndHashCode(callSuper = false )
 @NoArgsConstructor
 public class User extends BasePo {
+
     private String name;
     private String mobile;
     private String username;

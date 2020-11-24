@@ -25,6 +25,21 @@ public interface IUserService {
     User getByUniqueId(String uniqueId);
 
     /**
+     * 根据用户名和密码查询用户信息
+     *
+     */
+    User getUserByNameAndPassword(String name,String password);
+
+    /**
+     * 根据手机号查询用户信息
+     * @param mobile
+     * @return
+     */
+    User getUserByPhone(String mobile);
+
+
+
+    /**
      * 新增用户
      *
      * @param user

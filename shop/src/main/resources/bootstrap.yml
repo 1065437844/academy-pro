@@ -1,0 +1,14 @@
+server:
+  port: ${SERVER_PORT:8099}
+spring:
+  application:
+    name: shop-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${REGISTER_HOST:196.10.94.37}:${REGISTER_PORT:8848}
+        namespace: 0653a0bd-151b-43ec-adfd-307f539470ce
+      config:
+        server-addr: ${REGISTER_HOST:196.10.94.37}:${REGISTER_PORT:8848}
+        file-extension: yml
+        namespace: 0653a0bd-151b-43ec-adfd-307f539470ce

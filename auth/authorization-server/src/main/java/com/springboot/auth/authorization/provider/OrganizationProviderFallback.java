@@ -17,6 +17,17 @@ public class OrganizationProviderFallback implements OrganizationProvider {
     }
 
     @Override
+    public Result<User> getUserByNameAndPassword(String name, String password) {
+        return Result.success(new User());
+    }
+
+    @Override
+    public Result<User> getUserByPhone(String mobile) {
+        return Result.success(null);
+    }
+
+
+    @Override
     public Result<Set<Role>> queryRolesByUserId(String userId) {
         return Result.success(new HashSet<Role>());
     }

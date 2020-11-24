@@ -15,6 +15,12 @@ public interface OrganizationProvider {
     @GetMapping(value = "/user")
     Result<User> getUserByUniqueId(@RequestParam("uniqueId") String uniqueId);
 
+    @GetMapping(value = "/user/queryUserByNameAndPassword")
+    Result<User> getUserByNameAndPassword(@RequestParam("name") String name,@RequestParam("password") String password);
+
+    @GetMapping(value = "/user/queryUserByPhone")
+    Result<User> getUserByPhone(@RequestParam("mobile") String mobile);
+
     @GetMapping(value = "/role/user/{userId}")
     Result<Set<Role>> queryRolesByUserId(@PathVariable("userId") String userId);
 

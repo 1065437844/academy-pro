@@ -96,6 +96,29 @@ public class UserService extends ServiceImpl<UserMapper, User> implements IUserS
     }
 
     @Override
+    public User getUserByNameAndPassword(String name, String password) {
+        User user = this.getOne(new QueryWrapper<User>()
+                .eq("username", name)
+                .eq("password", password));
+        if (Objects.isNull(user)) {
+            throw new UserNotFoundException("user not found with uniqueId:" + name+"/"+password);
+        }
+        user.setRoleIds(userRoleService.queryByUserId(user.getId()));
+        return user;
+    }
+
+    @Override
+    public User getUserByPhone(String mobile) {
+        User user = this.getOne(new QueryWrapper<User>()
+                .eq("mobile", mobile));
+        if (Objects.isNull(user)) {
+            throw new UserNotFoundException("user not found with uniqueId:" + mobile);
+        }
+        user.setRoleIds(userRoleService.queryByUserId(user.getId()));
+        return user;
+    }
+
+    @Override
     public IPage<UserVo> query(Page page, UserQueryParam userQueryParam) {
         QueryWrapper<User> queryWrapper = userQueryParam.build();
         queryWrapper.eq(StringUtils.isNotBlank(userQueryParam.getName()), "name", userQueryParam.getName());

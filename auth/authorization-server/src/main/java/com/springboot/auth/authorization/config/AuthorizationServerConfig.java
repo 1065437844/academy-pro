@@ -3,6 +3,7 @@ package com.springboot.auth.authorization.config;
 import com.google.common.collect.Lists;
 import com.springboot.auth.authorization.oauth2.enhancer.CustomTokenEnhancer;
 import com.springboot.auth.authorization.exception.CustomWebResponseExceptionTranslator;
+import com.springboot.auth.authorization.oauth2.granter.MailboxTokenGranter;
 import com.springboot.auth.authorization.oauth2.granter.MobileTokenGranter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -17,6 +18,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
+import org.springframework.security.oauth2.provider.ClientDetailsService;
 import org.springframework.security.oauth2.provider.CompositeTokenGranter;
 import org.springframework.security.oauth2.provider.TokenGranter;
 import org.springframework.security.oauth2.provider.approval.ApprovalStore;
@@ -67,6 +69,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         // 配置客户端信息，从数据库中读取，对应oauth_client_details表
         clients.jdbc(dataSource);
+
     }
 
     @Override
@@ -80,7 +83,8 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .authenticationManager(authenticationManager)
                 .userDetailsService(userDetailsService)
                 //update by joe_chen add  granter
-                .tokenGranter(tokenGranter(endpoints));
+                .tokenGranter(tokenGranter(endpoints))
+                .tokenGranter(mailboxTokenGranter(endpoints));
 
     }
 
@@ -147,12 +151,29 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
         return converter;
     }
 
+
+
+
+
     /**
      * 配置自定义的granter,手机号验证码登陆
      */
     public TokenGranter tokenGranter(final AuthorizationServerEndpointsConfigurer endpoints) {
         List<TokenGranter> granters = Lists.newArrayList(endpoints.getTokenGranter());
         granters.add(new MobileTokenGranter(
+                authenticationManager,
+                endpoints.getTokenServices(),
+                endpoints.getClientDetailsService(),
+                endpoints.getOAuth2RequestFactory()));
+        return new CompositeTokenGranter(granters);
+    }
+
+    /**
+     * 配置自定义的granter,手机号验证码登陆
+     */
+    public TokenGranter mailboxTokenGranter(final AuthorizationServerEndpointsConfigurer endpoints) {
+        List<TokenGranter> granters = Lists.newArrayList(endpoints.getTokenGranter());
+        granters.add(new MailboxTokenGranter(
                 authenticationManager,
                 endpoints.getTokenServices(),
                 endpoints.getClientDetailsService(),

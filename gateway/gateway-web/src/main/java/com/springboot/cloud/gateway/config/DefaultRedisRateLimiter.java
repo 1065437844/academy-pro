@@ -25,8 +25,9 @@ public class DefaultRedisRateLimiter extends RedisRateLimiter {
 
     @Override
     public Mono<Response> isAllowed(String routeId, String id) {
-        if (null == super.getConfig().get(routeId))
+        if (null == super.getConfig().get(routeId)) {
             getConfig().put(routeId, getDefaultConfig());
+        }
         return super.isAllowed(routeId, id);
     }
 }

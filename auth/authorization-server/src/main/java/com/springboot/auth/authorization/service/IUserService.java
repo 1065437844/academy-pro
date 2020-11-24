@@ -15,4 +15,8 @@ public interface IUserService {
      */
     @Cacheable(value = "#id")
     User getByUniqueId(String uniqueId);
+
+    User getUserByNameAndPassword(String name,String password);
+
+    User getUserByPhone(String mobile);
 }

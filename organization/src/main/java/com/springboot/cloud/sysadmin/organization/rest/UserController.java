@@ -74,4 +74,16 @@ public class UserController {
         log.debug("search with userQueryForm:{}", userQueryForm);
         return Result.success(userService.query(userQueryForm.getPage(), userQueryForm.toParam(UserQueryParam.class)));
     }
+
+    @GetMapping(value = "/queryUserByPhone")
+    public Result queryUserByPhone(@RequestParam String mobile) {
+        log.debug("query with username or mobile:{}", mobile);
+        return Result.success(userService.getUserByPhone(mobile));
+    }
+
+    @GetMapping(value = "/queryUserByNameAndPassword")
+    public Result queryUserByNameAndPassword(@RequestParam String name,@RequestParam String password) {
+        return Result.success(userService.getUserByNameAndPassword(name,password));
+    }
+
 }

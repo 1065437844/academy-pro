@@ -10,6 +10,9 @@ public class CustomWebResponseExceptionTranslator implements WebResponseExceptio
     public ResponseEntity<OAuth2Exception> translate(Exception e) {
 
         OAuth2Exception oAuth2Exception = (OAuth2Exception) e;
+        System.out.println(e.getMessage());
+
+
         return ResponseEntity.status(oAuth2Exception.getHttpErrorCode())
                 .body(new CustomOauthException(oAuth2Exception));
     }

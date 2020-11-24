@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FindBugsConfigurable">
     <option name="make" value="true" />
     <option name="effort" value="default" />
@@ -16,6 +17,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/auth/security-server/pom.xml" />
         <option value="$PROJECT_DIR$/center/bus/pom.xml" />
         <option value="$PROJECT_DIR$/center/pom.xml" />
         <option value="$PROJECT_DIR$/demos/consumer-feign/pom.xml" />
