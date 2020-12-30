@@ -7,30 +7,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web" />
+        <module name="bus-server" />
         <module name="test" />
         <module name="authorization-server" />
         <module name="gateway-web" />
-        <module name="shop" />
+        <module name="MSShop" />
+        <module name="web" />
         <module name="core" />
         <module name="authentication-server" />
         <module name="gateway-admin" />
         <module name="authentication-client" />
         <module name="organization" />
+        <module name="quartz" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="admin" target="1.8" />
-      <module name="bus-server" target="1.8" />
-      <module name="center" target="1.8" />
+      <module name="bus" target="1.5" />
       <module name="consumer-feign" target="1.8" />
       <module name="consumer-ribbon" target="1.8" />
       <module name="demos" target="1.8" />
+      <module name="es" target="1.8" />
       <module name="monitor" target="1.8" />
       <module name="mschool" target="1.8" />
       <module name="producer" target="1.8" />
       <module name="producer-jpa" target="1.8" />
       <module name="security-server" target="1.8" />
+      <module name="shop" target="1.8" />
       <module name="SpringCloud-Nacos" target="1.8" />
       <module name="sysadmin" target="1.8" />
       <module name="webapp-parent" target="1.8" />
@@ -39,6 +42,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="es" options="-parameters" />
       <module name="mschool" options="" />
     </option>
   </component>

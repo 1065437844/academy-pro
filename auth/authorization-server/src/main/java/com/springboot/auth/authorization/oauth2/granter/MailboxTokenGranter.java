@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * @author joe_chen
- * 短信验证码登陆与用户名密码登陆相似,密码为动态
+ * 邮箱和密码登陆
  * 故继承ResourceOwnerPasswordTokenGranter
  */
 public class MailboxTokenGranter extends ResourceOwnerPasswordTokenGranter {
@@ -54,4 +54,7 @@ public class MailboxTokenGranter extends ResourceOwnerPasswordTokenGranter {
         OAuth2Request storedOAuth2Request = getRequestFactory().createOAuth2Request(client, tokenRequest);
         return new OAuth2Authentication(storedOAuth2Request, mailboxAuthenticationToken);
     }
+
+
+
 }

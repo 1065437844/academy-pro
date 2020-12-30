@@ -25,8 +25,6 @@ public class BaseException extends RuntimeException {
         this.errorType = errorType;
     }
 
-    public BaseException(ErrorType errorType, String message, Throwable cause) {
-        super(message, cause);
-        this.errorType = errorType;
-    }
+
+
 }

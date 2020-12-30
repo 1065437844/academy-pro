@@ -9,49 +9,274 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:github/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1489572c-1d9a-4747-8d21-e5e268ee6a96" name="Default Changelist" comment="create-environment">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/entity/ResponseInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/entity/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/oauth2/MailboxUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/oauth2/granter/MailboxAuthenticationProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/oauth2/granter/MailboxAuthenticationToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/oauth2/granter/MailboxTokenGranter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop/src/main/resources/bootstrap.yml" afterDir="false" />
+    <list default="true" id="1489572c-1d9a-4747-8d21-e5e268ee6a96" name="Default Changelist" comment="github">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9b5a8b7a-97c0-48b5-b1ca-20d466d9a9e3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/9b5a8b7a-97c0-48b5-b1ca-20d466d9a9e3/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/ShopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/Utils/BloomFilterHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/Utils/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/Utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/Utils/RedissonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/base/BasePo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/base/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/config/MyRedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/controller/EsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/controller/GoodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/controller/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/dao/GoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/entity/Good.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/entity/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/entity/UserEs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/fegin/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/fegin/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/fegin/UserServiceFegin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/fegin/UserServiceFeginFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/redisDemo/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/java/com/springboot/cloud/shop/redisDemo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/ShopApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/Utils/BloomFilterHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/Utils/RedisKeyUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/Utils/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/base/BasePo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/config/MyRedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/controller/EsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/controller/GoodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/dao/GoodRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/dao/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/entity/Good.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/entity/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/entity/UserEs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/fegin/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/fegin/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/fegin/UserServiceFegin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/fegin/UserServiceFeginFallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/redisDemo/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSShop/target/classes/com/springboot/cloud/shop/redisDemo/UserVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud-Nacos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/src/main/java/com/springboot/cloud/center/bus/BusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/bus-server/src/test/java/com/springboot/cloud/center/bus/BusApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/main/java/com/springboot/cloud/common/core/util/CronUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/core/src/main/java/com/springboot/cloud/common/core/util/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/entity/form/BaseForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/entity/form/BaseQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/entity/param/BaseParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/entity/po/BasePo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/entity/vo/BaseVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/exception/DefaultGlobalExceptionHandlerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/handler/PoMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/interceptor/UserInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/classes/com/springboot/cloud/common/web/redis/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/test-classes/com/springboot/cloud/common/web/exception/DefaultGlobalExceptionHandlerAdviceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/web/target/test-classes/com/springboot/cloud/common/web/interceptor/UserInterceptorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/db/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/src/main/db/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/OrganizationApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/config/BusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/config/MyMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/config/MyRedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/config/MybatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/config/WebServerMvcConfigurerAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/GroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/PositionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/ResourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/RoleResourceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/dao/UserRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/GroupForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/GroupQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/MenuForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/MenuQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/PositionForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/PositionQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/ResourceForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/ResourceQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/RoleForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/RoleQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/RoleUpdateForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/UserForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/UserQueryForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/form/UserUpdateForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/GroupQueryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/MenuQueryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/PositionQueryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/ResourceQueryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/RoleQueryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/param/UserQueryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Group$GroupBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Menu$MenuBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Position$PositionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Resource$ResourceBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Resource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Role$RoleBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/RoleResource$RoleResourceBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/RoleResource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/UserRole$UserRoleBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/po/UserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/entity/vo/UserVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/events/EventSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/GlobalExceptionHandlerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/OrganizationErrorType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/RoleNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/exception/UserNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/GroupController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/PositionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/ResourceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/rest/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IGroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IPositionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IRoleResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IUserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/GroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/MenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/PositionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/ResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/RoleResourceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/UserRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organization/target/classes/com/springboot/cloud/sysadmin/organization/service/impl/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/QuartzApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/config/JobExecute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/controller/JobEntityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/entity/JobEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/mapper/JobEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/service/IJobEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/service/impl/JobEntityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/java/com/springboot/cloud/quartz/service/impl/JobExecuteMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/resources/META-INF/spring-devtools.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/src/main/resources/mapper/JobEntityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/META-INF/spring-devtools.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/QuartzApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/config/JobExecute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/controller/JobEntityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/entity/JobEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/mapper/JobEntityMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/service/IJobEntityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/service/impl/JobEntityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/com/springboot/cloud/quartz/service/impl/JobExecuteMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz/target/classes/mapper/JobEntityMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_33_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_16_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_16_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_16_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_16_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Academy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Academy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/auth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/config/AuthorizationServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/config/AuthorizationServerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/config/WebServerSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/config/WebServerSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/exception/CustomWebResponseExceptionTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/exception/CustomWebResponseExceptionTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/provider/OrganizationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/provider/OrganizationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/provider/OrganizationProviderFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/provider/OrganizationProviderFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/service/impl/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/web/web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gateway-web/src/main/java/com/springboot/cloud/gateway/config/DefaultRedisRateLimiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway-web/src/main/java/com/springboot/cloud/gateway/config/DefaultRedisRateLimiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization/organization.iml" beforeDir="false" afterPath="$PROJECT_DIR$/organization/organization.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization/src/main/java/com/springboot/cloud/sysadmin/organization/rest/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization/src/main/java/com/springboot/cloud/sysadmin/organization/rest/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization/src/main/java/com/springboot/cloud/sysadmin/organization/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization/src/main/java/com/springboot/cloud/sysadmin/organization/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/organization/src/main/java/com/springboot/cloud/sysadmin/organization/service/impl/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/organization/src/main/java/com/springboot/cloud/sysadmin/organization/service/impl/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Academy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/auth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/authentication-server/src/main/java/com/springboot/cloud/auth/authentication/provider/ResourceProviderFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authentication-server/src/main/java/com/springboot/cloud/auth/authentication/provider/ResourceProviderFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/authentication-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authentication-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/oauth2/granter/MailboxTokenGranter.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/java/com/springboot/auth/authorization/oauth2/granter/MailboxTokenGranter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/authorization-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth/authorization-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/springboot/cloud/common/core/entity/vo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/springboot/cloud/common/core/entity/vo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/springboot/cloud/common/core/exception/BaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/springboot/cloud/common/core/exception/BaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/web/src/main/java/com/springboot/cloud/common/web/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/web/src/main/java/com/springboot/cloud/common/web/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/web/web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gateway-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/gateway.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/organization.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/organization/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/organization/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/organization/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MSShop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/organization/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +297,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/1065437844/academy-pro.git" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -99,6 +336,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -109,7 +347,8 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.obroom.plugin.mybatislog.indexNum" value="19" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shop/src/main/resources" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,27 +358,29 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38143176" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work3\academy-pro\shop\src\main\resources" />
-      <recent name="D:\work3\academy-pro\auth\authorization-server\src\main\java\com\springboot\auth\authorization\security" />
-      <recent name="D:\work3\academy-pro\auth\authorization-server\src\main\java\com\springboot\auth\authorization\entity" />
-      <recent name="D:\work3\academy-pro\auth\authorization-server\src\main\java\com\springboot\auth\authorization" />
-      <recent name="D:\work3\academy-pro\auth\authorization-server\src\main\java\com\springboot\auth\authorization\securityProvider" />
+      <recent name="D:\work3\academy-pro\gateway" />
+      <recent name="D:\work3\academy-pro\quartz\src\main\resources" />
+      <recent name="D:\work3\academy-pro\organization\src\main\resources" />
+      <recent name="D:\work3\academy-pro" />
+      <recent name="D:\work3\academy-pro\common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.springboot.auth.authorization.oauth2" />
-      <recent name="com.springboot.auth.authorization.oauth2.granter" />
-      <recent name="com.springboot.auth.authorization.security" />
-      <recent name="com.springboot.cloud.common.core.entity.vo" />
-      <recent name="com.springboot.auth.authorization.oauth2.enhancer" />
+      <recent name="com.springboot.cloud.shop.base" />
+      <recent name="com.springboot.cloud.shop.controller" />
+      <recent name="com.springboot.cloud.shop.config" />
+      <recent name="com.springboot.cloud.shop.Utils" />
+      <recent name="com.springboot.cloud.shop.entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work3\academy-pro\organization\src\main" />
+      <recent name="D:\work3\academy-pro" />
       <recent name="C:\Users\Administrator\Desktop\SpringCloud-Nacos" />
       <recent name="D:\work\SpringCloud-Nacos\mschool\src\main\resources\com.dm.mschool.demo.mapper" />
       <recent name="D:\work\SpringCloud-Nacos\mschool\src\main\resources" />
@@ -152,7 +393,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Oauth2AuthorizationApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="DynamicDataSourceController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dm.mschool.demo.controller.DynamicDataSourceController" />
       <module name="mschool" />
@@ -175,11 +416,35 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSpringBootES.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.cloud.es.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.cloud.es" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.cloud.es.TestSpringBootES" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="bus-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.cloud.center.bus.BusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="GatewayAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -220,19 +485,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="quartz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.cloud.quartz.QuartzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MSShop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.cloud.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="MSShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.cloud.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.cloud.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DynamicDataSourceController" />
       <item itemvalue="JUnit.All in security-server" />
+      <item itemvalue="JUnit.TestSpringBootES.save" />
       <item itemvalue="Spring Boot.Oauth2AuthenticationApplication" />
       <item itemvalue="Spring Boot.GatewayAdminApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.Oauth2AuthorizationApplication" />
       <item itemvalue="Spring Boot.OrganizationApplication" />
+      <item itemvalue="Spring Boot.ShopApplication (1)" />
+      <item itemvalue="Spring Boot.QuartzApplication" />
+      <item itemvalue="Spring Boot.BusApplication" />
+      <item itemvalue="Spring Boot.ShopApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ShopApplication" />
+        <item itemvalue="JUnit.TestSpringBootES.save" />
         <item itemvalue="JUnit.All in security-server" />
         <item itemvalue="Application.DynamicDataSourceController" />
+        <item itemvalue="Spring Boot.ShopApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +592,33 @@
       <workItem from="1605776649457" duration="3428000" />
       <workItem from="1605837234135" duration="19397000" />
       <workItem from="1606096023798" duration="22216000" />
-      <workItem from="1606182159359" duration="4953000" />
+      <workItem from="1606182159359" duration="9257000" />
+      <workItem from="1606195052482" duration="18280000" />
+      <workItem from="1606269556513" duration="18902000" />
+      <workItem from="1606293737777" duration="6052000" />
+      <workItem from="1606441462379" duration="17438000" />
+      <workItem from="1606701284530" duration="22495000" />
+      <workItem from="1606786832866" duration="17111000" />
+      <workItem from="1606872989074" duration="7934000" />
+      <workItem from="1606960860398" duration="10207000" />
+      <workItem from="1607052243021" duration="2464000" />
+      <workItem from="1607305461479" duration="6454000" />
+      <workItem from="1607322787424" duration="1784000" />
+      <workItem from="1607391111305" duration="1403000" />
+      <workItem from="1607403319609" duration="631000" />
+      <workItem from="1607479007380" duration="13661000" />
+      <workItem from="1607564069926" duration="2505000" />
+      <workItem from="1608021700802" duration="48000" />
+      <workItem from="1608528618433" duration="1113000" />
+      <workItem from="1608703073923" duration="620000" />
+      <workItem from="1608802700830" duration="3032000" />
+      <workItem from="1608872735703" duration="8688000" />
+      <workItem from="1609119475455" duration="1987000" />
+      <workItem from="1609135026992" duration="1925000" />
+      <workItem from="1609228027068" duration="5126000" />
+      <workItem from="1609293326809" duration="4744000" />
+      <workItem from="1609308041539" duration="344000" />
+      <workItem from="1609309027257" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="create-environment">
       <created>1604388369078</created>
@@ -301,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604388369078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create-environment">
+      <created>1606188344995</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606188344996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +645,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="github/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -321,21 +666,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create-environment" />
-    <option name="LAST_COMMIT_MESSAGE" value="create-environment" />
+    <MESSAGE value="github" />
+    <option name="LAST_COMMIT_MESSAGE" value="github" />
   </component>
   <component name="WindowStateProjectService">
     <state x="541" y="99" key="#All_in_security-server" timestamp="1605854928286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="541" y="99" key="#All_in_security-server/0.0.1920.1040@0.0.1920.1040" timestamp="1605854928286" />
-    <state x="414" y="36" width="1092" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605769000346">
+    <state x="852" y="409" width="501" height="221" key="#Assign_Data_Sources" timestamp="1609309176374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="36" width="1092" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605769000346" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1605855034901">
+    <state x="852" y="409" width="501" height="221" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1609309176374" />
+    <state x="586" y="198" key="#Inspections" timestamp="1608873511015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605855034901" />
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1608873511015" />
+    <state x="842" y="382" key="#Notifications" timestamp="1609308376825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1609308376825" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1606961627302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1606961627302" />
+    <state x="590" y="114" key="#ShopApplication" timestamp="1606464103342">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="114" key="#ShopApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1606464103342" />
+    <state x="797" y="31" width="1092" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606194961313">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="797" y="31" width="1092" height="1004" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606194961313" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1606442769190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606442769190" />
     <state x="779" y="212" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1605495579279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -356,10 +722,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604913396229" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605776085426">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1608873730739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605776085426" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608873730739" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1606729298627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606729298627" />
     <state x="810" y="420" width="300" height="291" key="Gitee.ShareDialog" timestamp="1604388643187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -368,54 +738,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="651" y="224" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604387876428" />
-    <state width="1178" height="62" key="GridCell.Tab.0.bottom" timestamp="1606188286960">
+    <state x="771" y="421" key="Github.CreateGistDialog" timestamp="1606460515098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.0.center" timestamp="1606188286960">
+    <state x="771" y="421" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606460515098" />
+    <state x="820" y="417" key="Github.ShareDialog" timestamp="1609308217128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.0.left" timestamp="1606188286960">
+    <state x="820" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609308217128" />
+    <state width="1402" height="450" key="GridCell.Tab.0.bottom" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.0.right" timestamp="1606188286960">
+    <state width="1402" height="450" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.0.center" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.1.bottom" timestamp="1606188286960">
+    <state width="1402" height="450" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.0.left" timestamp="1608883859102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.1.center" timestamp="1606188286960">
+    <state width="1402" height="450" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859102" />
+    <state width="1402" height="450" key="GridCell.Tab.0.right" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.1.left" timestamp="1606188286960">
+    <state width="1402" height="450" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.1.bottom" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.1.right" timestamp="1606188286960">
+    <state width="1402" height="450" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.1.center" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.2.bottom" timestamp="1606188286961">
+    <state width="1402" height="450" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.1.left" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286961" />
-    <state width="1178" height="62" key="GridCell.Tab.2.center" timestamp="1606188286960">
+    <state width="1402" height="450" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.1.right" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.2.left" timestamp="1606188286960">
+    <state width="1402" height="450" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.2.bottom" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286960" />
-    <state width="1178" height="62" key="GridCell.Tab.2.right" timestamp="1606188286961">
+    <state width="1402" height="450" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.2.center" timestamp="1608883859103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1178" height="62" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606188286961" />
+    <state width="1402" height="450" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.2.left" timestamp="1608883859103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1402" height="450" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
+    <state width="1402" height="450" key="GridCell.Tab.2.right" timestamp="1608883859103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1402" height="450" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608883859103" />
     <state x="540" y="254" key="IDE.errors.dialog" timestamp="1605768822830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -428,30 +806,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="296" width="714" height="587" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605766508213" />
-    <state x="521" y="107" width="1347" height="711" key="SettingsEditor" timestamp="1606096517276">
+    <state x="521" y="107" width="1347" height="711" key="SettingsEditor" timestamp="1609309064256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="521" y="107" width="1347" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606096517276" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604388389306">
+    <state x="521" y="107" width="1347" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609309064256" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606188355774">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604388389306" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1606108758988">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606188355774" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1606716977577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1606108758988" />
-    <state x="356" y="250" key="new project wizard" timestamp="1606186793734">
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1606716977577" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1608873730739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="356" y="250" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606186793734" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1606108213828">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608873730739" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608872812999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606108213828" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606183573982">
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608872812999" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1606274111645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606183573982" />
+    <state x="662" y="252" width="596" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606274111645" />
+    <state x="356" y="250" key="new project wizard" timestamp="1606273720551">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="356" y="250" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606273720551" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1608874069998">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608874069998" />
+    <state x="649" y="311" width="672" height="678" key="search.everywhere.popup" timestamp="1608874110852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="311" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608874110852" />
+    <state x="874" y="145" key="spring file set editor" timestamp="1606729302387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="874" y="145" key="spring file set editor/0.0.1920.1040@0.0.1920.1040" timestamp="1606729302387" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,6 +904,8 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo typeName="com.springboot.cloud.shop.Utils.BloomFilterHelper" fieldName="bitSize" />
+        <PinnedItemInfo typeName="com.springboot.cloud.shop.Utils.BloomFilterHelper" fieldName="numHashFunctions" />
         <PinnedItemInfo />
       </pinned-members>
     </pin-to-top-manager>

@@ -1,0 +1,13 @@
+server:
+  port: ${SERVER_PORT:8091}
+spring:
+  application:
+    name: quartz
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${REGISTER_HOST:175.24.189.176}:${REGISTER_PORT:8848}
+      config:
+        server-addr: ${REGISTER_HOST:175.24.189.176}:${REGISTER_PORT:8848}
+        file-extension: yml
+        namespace: db2d96f9-0ac6-4363-994d-43e3b6ab7b6b

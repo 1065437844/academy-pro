@@ -4,6 +4,7 @@ import com.springboot.cloud.common.core.entity.vo.Result;
 import com.springboot.cloud.sysadmin.organization.entity.po.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -11,6 +12,7 @@ import java.util.Set;
 @Component
 @Slf4j
 public class ResourceProviderFallback implements ResourceProvider {
+    @GetMapping("/resource/all")
     @Override
     public Result<Set<Resource>> resources() {
         log.error("认证服务启动时加载资源异常！未加载到资源");

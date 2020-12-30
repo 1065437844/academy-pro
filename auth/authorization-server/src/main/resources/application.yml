@@ -12,14 +12,14 @@ spring:
     password: Cheng_Yi_Shu_Yuan_2020.9_DM
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:${DATASOURCE_DBTYPE:mysql}://${DATASOURCE_HOST:150.158.213.159}:${DATASOURCE_PORT:3306}/sc_auth?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT
+    url: jdbc:${DATASOURCE_DBTYPE:mysql}://${DATASOURCE_HOST:175.24.189.176}:${DATASOURCE_PORT:3106}/sc_auth?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT
     username: ${DATASOURCE_USERNAME:root}
-    password: ${DATASOURCE_PASSWORD:Hzx520520Anan}
+    password: ${DATASOURCE_PASSWORD:linmaoMysql#222&1}
   zipkin:
     enabled: true
     sender:
       type: rabbit
-    base-url: http://http://150.158.213.159/:9411
+#    base-url: http://http://150.158.213.159/:9411
   sleuth:
     sampler:
       probability: 1.0

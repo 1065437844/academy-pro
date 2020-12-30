@@ -84,5 +84,6 @@
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
       <option name="myAdditionalJavadocTags" value="date,PackageName:com.dm.mschool.controller,ClassName:TestController,Description,Author,Date,ClassName:MyTestEvent,ClassName:MyNoAnnotationListener,PackageName:com.springboot.cloud.common.core.util,ClassName:UserUtil,PackageName:com.springboot.cloud.gateway.config,ClassName:GatewayConfiguration,ClassName:ForwardedHeadersFilter,PackageName:com.springboot.cloud.gateway.filter" />
     </inspection_tool>
+    <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   </profile>
 </component>

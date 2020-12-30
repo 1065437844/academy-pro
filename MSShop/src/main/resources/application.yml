@@ -1,0 +1,135 @@
+spring:
+  cloud:
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: ${RABBIT_MQ_HOST:localhost}
+    port: ${RABBIT_MQ_PORT:5672}
+    username: ${RABBIT_MQ_USERNAME:guest}
+    password: ${RABBIT_MQ_PASSWORD:guest}
+  redis:
+    host: ${REDIS_HOST:180.76.59.81}
+    port: ${REDIS_PORT:6379}
+    lettuce:
+      pool:
+        max-active: 300
+    ##password: ${REDIS_PASSWORD:}
+    database: 11
+    password: Cheng_Yi_Shu_Yuan_2020.9_DM
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:${DATASOURCE_DBTYPE:mysql}://${DATASOURCE_HOST:175.24.189.176}:${DATASOURCE_PORT:3106}/shop?characterEncoding=UTF-8&useUnicode=true&useSSL=false&serverTimezone=GMT%2b8
+    username: ${DATASOURCE_USERNAME:root}
+    password: ${DATASOURCE_PASSWORD:linmaoMysql#222&1}
+  jpa:
+    show-sql: true
+    hibernate:
+        ddl-auto: update
+        jdbc:
+          time_zone: GMT+8
+  zipkin:
+    enabled: true
+    sender:
+      type: rabbit
+    base-url: http://http://150.158.213.159/:9411
+  sleuth:
+    sampler:
+      probability: 1.0
+    enabled: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  servlet:
+    multipart:
+      max-request-size: "2MB"
+      max-file-size: "2MB"
+  jackson:
+    time-zone: GMT+8
+#  resources:
+#    add-mappings: false
+#  data:
+#    elasticsearch:
+#      cluster-nodes: 175.24.189.176:9300,175.24.189.176:9301,175.24.189.176:9302
+#      cluster-name: elasticsearch-cluster
+
+jetcache:
+  statIntervalMinutes: 15
+  areaInCacheName: false
+  hidePackages: com.springboot.cloud
+  local:
+    # 默认2小时本地缓存
+    default:
+      type: caffeine
+      keyConvertor: fastjson
+      expireAfterWriteInMillis: 3600000
+      expireAfterAccessInMillis: 1800000
+    # 長時本地緩存，主要用于要求时效一般
+    longTime:
+      type: caffeine
+      keyConvertor: fastjson
+      expireAfterWriteInMillis: 300000
+      expireAfterAccessInMillis: 180000
+    # 短時本地緩存，主要用于要求时效较高的配置
+    shortTime:
+      type: caffeine
+      keyConvertor: fastjson
+      expireAfterWriteInMillis: 60000
+      expireAfterAccessInMillis: 40000
+  remote:
+    # 默认2小时的远程缓存
+    default:
+      type: redis
+      expireAfterWriteInMillis: 43200000
+      keyConvertor: fastjson
+      valueEncoder: kryo
+      valueDecoder: kryo
+      poolConfig:
+        minIdle: 5
+        maxIdle: 20
+        maxTotal: 50
+      host: ${REDIS_HOST:180.76.59.81}
+      port: ${REDIS_PORT:6379}
+      database: 13
+      password: Cheng_Yi_Shu_Yuan_2020.9_DM
+    # 长时远程緩存，主要用于要求时效要求一般的集中式缓存
+    longTime:
+      type: redis
+      expireAfterWriteInMillis: 7200000
+      keyConvertor: fastjson
+      valueEncoder: kryo
+      valueDecoder: kryo
+      poolConfig:
+        minIdle: 5
+        maxIdle: 20
+        maxTotal: 50
+      host: ${REDIS_HOST:180.76.59.81}
+      port: ${REDIS_PORT:6379}
+      database: 13
+      password: Cheng_Yi_Shu_Yuan_2020.9_DM
+    # 短時远程緩存，主要用于要求时效较高的集中式缓存
+    shortTime:
+      type: redis
+      expireAfterWriteInMillis: 300000
+      keyConvertor: fastjson
+      valueEncoder: kryo
+      valueDecoder: kryo
+      poolConfig:
+        minIdle: 5
+        maxIdle: 20
+        maxTotal: 50
+      host: ${REDIS_HOST:180.76.59.81}
+      port: ${REDIS_PORT:6379}
+      database: 11
+      password: Cheng_Yi_Shu_Yuan_2020.9_DM
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  level:
+    com.springboot.cloud: debug
+    java.sql.PreparedStatement: debug
+

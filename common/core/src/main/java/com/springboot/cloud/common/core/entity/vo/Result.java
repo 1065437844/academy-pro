@@ -58,7 +58,7 @@ public class Result<T> {
      * @param mesg
      * @param data
      */
-    private Result(String code, String mesg, T data) {
+    public Result(String code, String mesg, T data) {
         this.code = code;
         this.mesg = mesg;
         this.data = data;

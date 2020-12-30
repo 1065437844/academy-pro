@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    host: ${RABBIT_MQ_HOST:192.168.1.5}
+    port: ${RABBIT_MQ_PORT:5672}
+    username: ${RABBIT_MQ_USERNAME:admin}
+    password: ${RABBIT_MQ_PASSWORD:admin}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  level:
+    root: info
